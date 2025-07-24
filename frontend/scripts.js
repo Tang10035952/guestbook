@@ -1,5 +1,5 @@
 // frontend/scripts.js
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = '/api';
 
 async function loadMessages() {
   const res = await fetch(`${API_BASE}/messages`);
